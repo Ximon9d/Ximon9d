@@ -16,6 +16,6 @@ for k in range(jumlah):
   data = json.dumps({"phone_number":"+62"+nomer,"channel":"WA"})
   pos = requests.post("https://api.qoalaplus.com/go-agent/v2/user/register",headers=head,data=data).text
   if "success" in pos:
-    print("😎😂😋🥱🤣😅😊🥰😋😅😎:)",k)
+    print("ANJAY SPAM WhatsApp Mantan Berhasil:)",k)
   else:
-    print("Makan 😋😋😋I",k)
+    print("Makannya Ganteng Biar Gak gagal ASIK KAN YO SPAM LAGI",k)
