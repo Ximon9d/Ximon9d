@@ -1,5 +1,4 @@
-  k += 1
-  head = {
+   head = {
   "Host": "api.oyorooms.com",
   "content-length": "48",
   "accept": "application/json, text/plain, */*",
