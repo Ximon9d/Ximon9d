@@ -103,12 +103,12 @@ def title_loop():
         
     if os.name == "nt":
         while True:
-            os.system(f'title TikTok Viewbot by @Hery ^| success: {success} fails: {fails} reqs: {reqs} rps: {rps} rpm: {rpm}')
+            os.system(f'title TikTok Viewbot by @xtekky ^| success: {success} fails: {fails} reqs: {reqs} rps: {rps} rpm: {rpm}')
             time.sleep(0.1)
 
 if __name__ == "__main__":
-    os.system("cls" if os.name == "nt" else "clear"); os.system("title TikTok Viewbot by @Hery" if os.name == "nt" else "")
-    txt = """\n\n╦  ╦╦╔═╗╦ ╦╔╗ ╔═╗╔╦╗\n╚╗╔╝║sok atuh╣ ║║║╠╩╗║ ║ ║ \n ╚╝ ╩╚═╝╚╩╝╚═╝╚═╝ ╩ \n"""
+    os.system("cls" if os.name == "nt" else "clear"); os.system("title TikTok Viewbot by @xtekky" if os.name == "nt" else "")
+    txt = """\n\n╦  ╦╦╔═╗╦ ╦╔╗ ╔═╗╔╦╗\n╚╗╔╝║║╣ ║║║╠╩╗║ ║ ║ \n ╚╝ ╩╚═╝╚╩╝╚═╝╚═╝ ╩ \n"""
     print(
         Colorate.Vertical(
             Colors.DynamicMIX((Col.light_blue, Col.purple)), Center.XCenter(txt)
@@ -116,7 +116,7 @@ if __name__ == "__main__":
     )
     
     try:
-        link = str(Write.Input("\n\n            ? - Video Link > ", Colors.blue_to_red, interval=0.0001))
+        link = str(Write.Input("\n\n            ? - Video Link > ", Colors.yellow_to_red, interval=0.0001))
         __aweme_id = str(
             re.findall(r"(\d{18,19})", link)[0]
             if len(re.findall(r"(\d{18,19})", link)) == 1
